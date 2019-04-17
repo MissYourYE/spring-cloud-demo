@@ -6,7 +6,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone:
-        http://localhost:1101/eureka
-        #http://peer1:1101/eureka,http://peer2:1102/eureka
+#        http://localhost:1101/eureka
+        http://peer1:1101/eureka,http://peer2:1102/eureka
 server:
   port: 9999
